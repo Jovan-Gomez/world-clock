@@ -1,0 +1,18 @@
+.timezones::-webkit-scrollbar {
+  width: 5px;
+  background-color: white;
+}
+.timezones::-webkit-scrollbar-thumb {
+  background-color: #c7cace;
+  border-radius: 20px;
+}
+
+.select_hour {
+  border: 1px solid transparent;
+  transition: all 0.2s;
+}
+
+.select_hour:hover {
+  background-color: rgba(244, 156, 118, 0.2);
+  border: 1px solid #f49c76;
+}
